@@ -24,5 +24,3 @@ for i in range(N):
     visited = [False]*N
     dfs(i)
     print(i)
-    print(*matchedX)
-    print(*matchedY)
